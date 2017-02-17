@@ -1,6 +1,8 @@
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Iterator;
+
 public class Solver {
     /**
      * find a solution to the initial board (using the A* algorithm)
@@ -15,7 +17,7 @@ public class Solver {
      * @return
      */
     public boolean isSolvable() {
-
+        return false;
     }
 
     /**
@@ -23,7 +25,7 @@ public class Solver {
      * @return
      */
     public int moves() {
-
+        return 0;
     }
 
     /**
@@ -31,7 +33,12 @@ public class Solver {
      * @return
      */
     public Iterable<Board> solution() {
-
+        return new Iterable<Board>() {
+            @Override
+            public Iterator<Board> iterator() {
+                return null;
+            }
+        };
     }
 
     /**
